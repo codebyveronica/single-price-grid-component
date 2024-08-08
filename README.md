@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link](https://github.com/codebyveronica/single-price-grid-component)
-- Live Site URL: [Link]()
+- Live Site URL: [Link](https://codebyveronica.github.io/single-price-grid-component/)
 
 ## My process
 
