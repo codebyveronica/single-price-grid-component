@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px) {
+    body {
+        height: 96vh;
+        position: relative;
+
+        font-size: 16px;
+    }
+
+    main {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        max-width: 700px;
+        margin: 0 auto;
+
+        transform: translate(-50%, -50%);
+    } 
+
+    section {
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    strong {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .join {
+        grid-column: 1 / 3;
+        grid-row: 1;
+    }
+
+    .join > p {
+        line-height: 24px;
+    }
+
+    .subscription {
+        grid-column: 1;
+        grid-row: 2;
+
+        border-radius: 0px 0px 0px 5px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    b {
+        font-size: 30px;
+    }
+
+    span {
+        font-size: 14px;
+    }
+
+    .subscription > p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    button {
+        padding: 15px;
+    }
+
+    .whyus {
+        grid-column: 2;
+        grid-row: 2;
+
+        border-radius: 0px 0px 5px 0px;
+    }
+
+    .whyus > p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
